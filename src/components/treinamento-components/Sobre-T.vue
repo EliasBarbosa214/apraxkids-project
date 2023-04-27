@@ -1,14 +1,14 @@
 <script>
 export default {
-  setup() {},
+
 };
 </script>
 
 <template>
   <section class="bg-papel1">
     <div class="grid grid-cols-1 lg:grid-cols-2">
-      <div class="centralizarImagem py-10">
-        <iframe width="560" height="460" src="https://www.youtube.com/embed/fYaXJXf60gU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div  class="centralizarImagem py-10">
+        <iframe width="560" height="460" src="https://www.youtube.com/embed/fYaXJXf60gU" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
       </div>
       <div >
         <div

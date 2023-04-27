@@ -18,10 +18,7 @@
                             <router-link to="/" class="estilo-menu" aria-current="page">Principal</router-link>
                         </li>
                         <li>
-                            <a href="#" class="estilo-menu">Sobre</a>
-                        </li>
-                        <li>
-                            <a href="#" class="estilo-menu">O que é?</a>
+                            <a href="#" class="estilo-menu">Como será?</a>
                         </li>
                         <li>
                             <a href="#" class="estilo-menu">Treinamento de Libras</a>
