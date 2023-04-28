@@ -18,16 +18,19 @@
                             <router-link to="/" class="estilo-menu" aria-current="page">Principal</router-link>
                         </li>
                         <li>
-                            <a href="#" class="estilo-menu">Como será?</a>
+                            <a href="#ser-feito" class="estilo-menu">Como será?</a>
                         </li>
                         <li>
-                            <a href="#" class="estilo-menu">Treinamento de Libras</a>
+                            <router-link to="/treinamento-libras"  class="estilo-menu">Treinamento de Libras</router-link>
                         </li>
                         <li>
-                            <a href="#" class="estilo-menu">Treinamento Apraxia de Fala</a>
+                            <a href="#passo-a-passo"  class="estilo-menu">Passo a Passo</a>
                         </li>
                         <li>
-                            <a href="#" class="estilo-menu">Contato</a>
+                            <a to="/treinamento-apraxia"  class="estilo-menu">Treinamento Apraxia de Fala</a>
+                        </li>
+                        <li>
+                            <a href="#contato" class="estilo-menu">Contato</a>
                         </li>
                     </ul>
                 </div>

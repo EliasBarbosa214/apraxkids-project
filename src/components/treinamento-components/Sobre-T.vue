@@ -6,9 +6,11 @@ export default {
 
 <template>
   <section class="bg-papel1">
-    <div class="grid grid-cols-1 lg:grid-cols-2">
-      <div  class="centralizarImagem py-10">
-        <iframe width="560" height="460" src="https://www.youtube.com/embed/fYaXJXf60gU" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+    <div class="grid grid-cols-1 lg:grid-cols-2" id="ser-feito">
+      <div  class="centralizarImagem py-20 bg-papel2">
+        <video width="560"    controls class="h-full  rounded">
+<source src="../../assets/mp4/ApraxKidsTreinamentos.mp4" type="video/mp4" />
+        </video>
       </div>
       <div >
         <div
@@ -20,18 +22,10 @@ export default {
               <span class="normal-case underline">Ser Feito?</span>
             </p>
             <p class="text-xl mb-2 leading-none">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
-              odio, unde nostrum quo, atque iure voluptatum possimus itaque nemo
-              eius aliquam, rem error quis fugiat deleniti magnam facilis
-              consequatur! Omnis. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              O treinamento de Libras será feito da seguinte forma, iniciará com passo a passos pequenos como alfabetos e palavras chaves como "Fome", "Comida", entre outras, assim podendo utilizar no dia a dia.
             </p>
             <p class="text-xl leading-none">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
-              odio, unde nostrum quo, atque iure voluptatum possimus itaque nemo
-              eius aliquam, rem error quis fugiat deleniti magnam facilis
-              consequatur! Omnis. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              Conforme avança terá todo um entendimento para poder conversar no dia a dia sem precisar ter gastado e poderá se comunicar com seu parente de uma forma tranquila.
             </p>
             <!-- <a href="#" class="transition duration-300 bg-amber-950 bg-opacity-80 hover:bg-opacity-40 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-amber-950">Começar!</a> -->
           </div>

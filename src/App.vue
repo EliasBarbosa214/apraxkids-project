@@ -11,7 +11,6 @@ export default {
 <template>
 <div>
     <router-view/>
-  <Footer/>
 </div>
 </template>
 

@@ -9,12 +9,14 @@
     <SobreTreinamento/>
   </section>  
   </main>
+  <Footer/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 import Banner from '@/components/home-components/Banner.vue'
 import Sobre from '@/components/home-components/Sobre.vue'
 import SobreApraxia from '@/components/home-components/SobreApraxia.vue'
@@ -24,6 +26,7 @@ export default {
   name: 'HomeView',
   components: {
     Header,
+    Footer,
     Banner,
     Sobre,
     SobreApraxia,

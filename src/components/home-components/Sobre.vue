@@ -6,7 +6,7 @@ export default {
 
 <template>
   <section>
-    <div class="grid grid-cols-1 lg:grid-cols-2">
+    <div class="grid grid-cols-1 lg:grid-cols-2" id="sobre">
       <div class="bg-papel1 centralizarImagem py-10">
         <img
           src="../../assets/img/baloes.png"
@@ -26,18 +26,7 @@ export default {
               <span class="normal-case underline">ApraxKids</span>
             </p>
             <p class="text-xl mb-2 leading-none">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
-              odio, unde nostrum quo, atque iure voluptatum possimus itaque nemo
-              eius aliquam, rem error quis fugiat deleniti magnam facilis
-              consequatur! Omnis. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
-            </p>
-            <p class="text-xl leading-none">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
-              odio, unde nostrum quo, atque iure voluptatum possimus itaque nemo
-              eius aliquam, rem error quis fugiat deleniti magnam facilis
-              consequatur! Omnis. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              ApraxKids é uma iniciativa para ajudar familias que possuem algum familiar com Apraxia de Fala, aonde poderá ter auxilio para que a criança possa ter uma vida tranquila e cada vez ter melhoras, e o melhor de tudo isso? Tudo gratuitamente! Como iniciativa estamos aqui para ajudar familias que não possuem condições financeiras para poder custear tratamentos ou cirurgias para melhoras, podendo dar mais de um auxilio para os familiares além de direcionamento.
             </p>
             <!-- <a href="#" class="transition duration-300 bg-amber-950 bg-opacity-80 hover:bg-opacity-40 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-amber-950">Começar!</a> -->
           </div>
@@ -68,11 +57,7 @@ export default {
               <span class="normal-case underline">Continuar</span>
             </p>
             <p class="text-xl mb-10 leading-none">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
-              odio, unde nostrum quo, atque iure voluptatum possimus itaque nemo
-              eius aliquam, rem error quis fugiat deleniti magnam facilis
-              consequatur! Omnis. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              Doando uma certa quantidade para a nossa iniciativa poderá ajudar a continuarmos a ajudar muitas familias e indíviduos que possuem Apraxia de Fala e também poder nos ajudar a crescer e podermos alcançar muito mais esse nosso Brasil!
             </p>
 
             <button onclick="document.getElementById('myModal').showModal()" id="btn" class="mb-6   text shadow-xl transition duration-300 bg-amber-950 bg-opacity-80  py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200  hover:text-amber-950">Nos ajude por aqui!</button>
@@ -93,11 +78,7 @@ export default {
               <span class="normal-case underline">Continuar</span>
             </p>
             <p class="text-xl mb-10 leading-none">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
-              odio, unde nostrum quo, atque iure voluptatum possimus itaque nemo
-              eius aliquam, rem error quis fugiat deleniti magnam facilis
-              consequatur! Omnis. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              Doando uma certa quantidade para a nossa iniciativa poderá ajudar a continuarmos a ajudar muitas familias e indíviduos que possuem Apraxia de Fala e também poder nos ajudar a crescer e podermos alcançar muito mais esse nosso Brasil!
             </p>
   <button onclick="document.getElementById('myModal').showModal()" id="btn" class="mb-6   text shadow-xl transition duration-300 bg-amber-950 bg-opacity-80  py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200  hover:text-amber-950">Nos ajude por aqui!</button>
 
