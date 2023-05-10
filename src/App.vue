@@ -32,9 +32,7 @@ nav a {
   color: #fff;
 }
 
-nav a.router-link-exact-active {
-  color: #cecece;
-}
+
 
 .bg-papel1 {
   background-image: url('./assets/img/fundo-papel.png');

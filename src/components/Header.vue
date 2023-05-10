@@ -2,7 +2,7 @@
     <header class="bg-header fixed w-full">
         <nav class="px-0 lg:px-6 pt-2.5 lg:pt-auto lg:py-2.5">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-                <router-link to="/" class="flex items-center px-4 pb-2.5 lg:px-0 lg:pb-0">
+                <router-link to="/" id="logo" class="flex items-center px-4 pb-2.5 lg:px-0 lg:pb-0">
                     <img src="../assets/img/logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
                 </router-link>
                 <div class="flex items-center lg:order-2 lg:hidden">
@@ -15,19 +15,19 @@
                 <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                     <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                         <li>
-                            <router-link to="/" class="estilo-menu" aria-current="page">Principal</router-link>
+                            <router-link to="/" class="estilo-menu " aria-current="page">Principal</router-link>
                         </li>
                         <li>
-                            <a href="#sobre" class="estilo-menu">Sobre</a>
+                            <a href="#sobre" class="estilo-menu ">Sobre</a>
                         </li>
                         <li>
-                            <a href="#sobre-oque" class="estilo-menu">O que é?</a>
+                            <a href="#sobre-oque" class="estilo-menu ">O que é?</a>
                         </li>
                         <li>
-                            <router-link to="/treinamento-libras"  class="estilo-menu">Treinamento de Libras</router-link>
+                            <router-link to="/treinamento-libras"  class="estilo-menu ">Treinamento de Libras</router-link>
                         </li>
                         <li>
-                            <a href="#treinamento-apraxia" class="estilo-menu">Treinamento Apraxia de Fala</a>
+                            <a href="#treinamento-apraxia" class="estilo-menu ">Treinamento Apraxia de Fala</a>
                         </li>
                         <li>
                             <a href="#contato" class="estilo-menu">Contato</a>
@@ -3425,17 +3425,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <style scoped>
 .estilo-menu {
-    @apply block py-2 pr-4 pl-3  border-b border-gray-100 bg-header lg:hover:bg-transparent lg:border-0 lg:hover:text-gray-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 z-50
+    @apply block py-2 border-b border-gray-100  lg:border-0 lg:py-1 lg:px-4  z-50 transition duration-300
 }
 
+.estilo-menu:hover {
+   background-color: rgba(144, 238, 144, 1)!important;
+   @apply rounded;
+}
+
+nav a.router-link-exact-active {
+  background-color: rgba(144, 238, 144, 1);
+  @apply rounded
+}
+
+nav a#logo.router-link-exact-active {
+  background-color: rgba(144, 238, 144, 0);
+}
 
 .bg-header {
-    background-color: rgba(
-    80,
-    67,
-    22,
-    0.5
-    );
+    background-color: rgba(135, 206, 250, 0.6)
+;
 }
 
 header {
@@ -3443,31 +3452,16 @@ header {
 }
 
 a.bg-header:hover, button.bg-header:hover {
-    background-color: rgba(
-    80,
-    67,
-    22,
-    1
-    );
+      background-color: rgba(144, 238, 144, 1)!important;
 }
 
 @media (min-width: 1024px) {
     a.bg-header {
-        background-color: rgba(
-        80,
-        67,
-        22,
-        0
-        );
+        background-color: rgba(144, 238, 144, 0);
     }
 
     a.bg-header:hover {
-        background-color: rgba(
-        80,
-        67,
-        22,
-        0
-        )!important;
+        background-color: rgba(144, 238, 144, 0)!important;
     }
 }
 
