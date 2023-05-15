@@ -20,7 +20,7 @@ export default {
         class="bg-cover container mx-auto bg-center 2xl:w-1/2 2xl:m-auto h-auto text-white pt-6 pb-24 px-10 object-fill bg-image"
       >
         <div class="text-center">
-          <p class="font-bold text-sm uppercase">Mas o que é</p>
+          <p class="font-bold text-sm uppercase">Mas o que e</p>
           <p class="text-7xl font-bold mb-8">
             <span class="normal-case underline">Apraxia de Fala?</span>
           </p>
