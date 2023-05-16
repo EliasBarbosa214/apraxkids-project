@@ -5,38 +5,24 @@ export default {
 </script>
 
 <template>
-  <section>
-    <div class="bg-papel3" id="sobre-oque">
-      <div class="centralizarImagem pt-10">
-        <img
-          src="../../assets/img/Apraxia.png"
-          alt="Alguma Imagem"
-          width="400"
-          height="190"
-          class="transition duration-300"
-        />
+  <section class="bg-white mt-20 md:mt-0 container mx-auto">
+    <div>
+      <h2 class="text-2xl text-yellow-400 sm:text-4xl lg:text-5xl" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);"><span >Sobre a</span> <br> <img src="../../assets/img/logo-azul.png" alt="" class="mx-auto"></h2>
+    </div>
+    
+    <div class="grid grid-cols-1  lg:grid-cols-3">
+      <div class="px-10 py-2 mx-auto lg:hidden">
+        <img src="../../assets/img/Apraxia.png" alt="">
       </div>
-      <div
-        class="bg-cover container mx-auto bg-center 2xl:w-1/2 2xl:m-auto h-auto text-white pt-6 pb-24 px-10 object-fill bg-image"
-      >
-        <div class="text-center">
-          <p class="font-bold text-sm uppercase">Mas o que e</p>
-          <p class="text-7xl font-bold mb-8">
-            <span class="normal-case underline">Apraxia de Fala?</span>
+      <div class="lg:col-span-2 centralizarImagem">
+        <div class="p-10 text-justify">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium sit quas ut explicabo voluptatum possimus? In iure exercitationem eaque ut, ipsum a consequatur molestiae atque quasi alias ea provident. Culpa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aspernatur perferendis corporis tempora qui quo, neque similique autem dignissimos itaque nihil exercitationem possimus sapiente libero dolore aliquid blanditiis est consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit beatae officiis, et ipsum libero minus eos fugiat non exercitationem accusantium dolorum voluptatibus asperiores consectetur doloribus animi possimus ducimus delectus. Obcaecati.
           </p>
-          <p class="text-xl mb-2 leading-none">
-            Apraxia de Fala é a dificuldade de realizar movimentos motores,
-            mesmo quando a pessoa tem capacidade e vontade de praticá-los.
-          </p>
-          <p class="text-xl leading-none">
-            A apraxia é causada por doenças ou danos cerebrais. O cérebro não
-            consegue realizar e instruir movimentos corretos para o corpo.
-            Existe vários tipos de apraxia mas focaremos na Apraxia de Fala em
-            que o cérebro tem dificuldade para lidar com os movimentos dos
-            lábios, da mandíbula e da língua.
-          </p>
-          <!-- <a href="#" class="transition duration-300 bg-amber-950 bg-opacity-80 hover:bg-opacity-40 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-amber-950">Começar!</a> -->
         </div>
+      </div>
+      <div class="px-10 py-2 mx-auto  hidden lg:block">
+        <img src="../../assets/img/Apraxia.png" alt="">
       </div>
     </div>
   </section>

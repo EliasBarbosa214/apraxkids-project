@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-header fixed w-full">
+    <header class="absolute top-0 w-full">
         <nav class="px-0 lg:px-6 pt-2.5 lg:pt-auto lg:py-2.5">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <router-link to="/" id="logo" class="flex items-center px-4 pb-2.5 lg:px-0 lg:pb-0">

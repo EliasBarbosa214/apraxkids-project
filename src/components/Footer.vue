@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-<footer id="contato" class="relative bg-papel2 pt-8 pb-6">
+<footer id="contato" class="relative bg-papel2 pt-8 pb-6 ">
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap text-left lg:text-left">
       <div class="w-full lg:w-6/12 px-4">

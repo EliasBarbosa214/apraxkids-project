@@ -32,7 +32,18 @@ nav a {
   color: #fff;
 }
 
+h2, p {
+    font-family: 'Poppins' ,Arial, Helvetica, sans-serif;
+    
+}
 
+.text-blue-nuvem {
+  color: #67B3E5;
+}
+
+.bg-blue-nuvem {
+    background-color: #67B3E5;
+}
 
 .bg-papel1 {
   background-image: url('./assets/img/fundo-papel.png');

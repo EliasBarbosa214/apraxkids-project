@@ -2,19 +2,37 @@
 
 
 <template>
-  <div class="bg-cover bg-center  h-auto text-white py-24 lg:py-40 px-10 object-fill bg-image">
-       <div class="text-center">
-        <p class="font-bold text-sm  uppercase">Conheça o </p>
-        <p class="text-7xl font-bold mb-8"><span class="normal-case underline">ApraxKids</span></p>
-        <p class="text-3xl mb-10 leading-none">Bem vindos a iniciativa ApraxKids que é focada em ajudar a guiar familiares e auxiliar para que seu parente ou parentes que possuem a Apraxia de Fala!</p>
-        <a href="#sobre" class="transition duration-300 bg-amber-950 bg-opacity-80 hover:bg-opacity-40 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-amber-950">Começar!</a>
-        </div>  
+  <section class="h-96 md:h-screen bg-cover bg-image">
+  <div class="flex h-full w-full items-center justify-center container mx-auto px-8">
+    <div class="max-w-2xl text-center">
+      <h1 class="text-3xl  sm:text-5xl font-bold capitalize tracking-widest text-white lg:text-7xl"><span style="text-shadow: 10px 10px 10px rgba(0,0,0,0.4)">ApraxKids</span></h1>
+
+      <p class="mt-6 lg:text-3xl text-white p-4 border-2 border-black rounded bg-blue-nuvem" style="text-shadow: 4px 2px 3px rgba(0,0,0,0.1)">You can subscribe to our newsletter, and let you know when we are back</p>
+
     </div>
+  </div>
+</section>
 </template>
 
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
 .bg-image {
-    background-image: url('../../assets/img/banner.png');
+    background-image: url('../../assets/img/fundo-nuvem.png');
+    background-position-y: -40vh;
+    background-repeat: no-repeat;
+}
+
+@media(max-height: 500px) {
+    .bg-image {
+        background-position-y: 0vh;
+    }
+}
+
+
+
+section {
+    font-family: 'Poppins' ,Arial, Helvetica, sans-serif;
 }
 </style>

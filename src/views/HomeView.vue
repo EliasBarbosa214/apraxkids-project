@@ -5,8 +5,9 @@
   <section >
     <Banner/>
     <Sobre/>
+    <img src="../assets/img/retangulo.png" alt="" class="mx-auto mb-20">
     <SobreApraxia/>
-    <SobreTreinamento/>
+    <SobreTreinamento class="mt-10 md:mt-40"/>
   </section>  
   </main>
   <Footer/>
