@@ -6,7 +6,7 @@
   <div class="lg:flex h-full w-full items-center justify-center container mx-auto px-8">
     <div class=" text-center">
       <div>
-      <h2 class="text-2xl text-blue-nuvem sm:text-4xl lg:text-5xl" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);"><span >Treinamento de</span> <br> <span class="text-3xl  sm:text-5xl lg:text-7xl text-yellow-400" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);">Libras</span></h2>
+      <h2 class="text-2xl text-blue-nuvem sm:text-4xl lg:text-5xl" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);"><span >Treinamento de</span> <br> <span class="text-3xl  sm:text-5xl lg:text-7xl text-green-600" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);">Libras</span></h2>
     </div>
 
       <p class="mt-6 lg:text-xl text-white p-4 border-2 border-black rounded bg-blue-nuvem" style="text-shadow: 4px 2px 3px rgba(0,0,0,0.1)">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae dolore, provident repellat sequi dicta blanditiis inventore enim officiis nihil doloremque fuga dolor aliquam id facilis, numquam sapiente, omnis assumenda voluptate!</p>

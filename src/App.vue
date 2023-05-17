@@ -41,6 +41,10 @@ h2, p {
   color: #67B3E5;
 }
 
+.text-green {
+  color: rgba(144, 238, 144, 1);
+}
+
 .bg-blue-nuvem {
     background-color: #67B3E5;
 }

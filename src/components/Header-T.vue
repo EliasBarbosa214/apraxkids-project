@@ -1,8 +1,8 @@
 <template>
-    <header class="bg-header fixed w-full">
+    <header class="absolute top-0 w-full">
         <nav class="px-0 lg:px-6 pt-2.5 lg:pt-auto lg:py-2.5">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-                <router-link to="/" class="flex items-center px-4 pb-2.5 lg:px-0 lg:pb-0">
+                <router-link to="/" id="logo" class="flex items-center px-4 pb-2.5 lg:px-0 lg:pb-0">
                     <img src="../assets/img/logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
                 </router-link>
                 <div class="flex items-center lg:order-2 lg:hidden">
@@ -3423,19 +3423,29 @@ document.addEventListener('DOMContentLoaded', function () {
 //# sourceMappingURL=flowbite.js.map
 </script>
 
+
 <style scoped>
 .estilo-menu {
-    @apply block py-2 pr-4 pl-3  border-b border-gray-100 bg-header lg:hover:bg-transparent lg:border-0 lg:hover:text-gray-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 z-50
+    @apply block py-2 border-b border-gray-100  lg:border-0 lg:py-1 lg:px-4  z-50 transition duration-300
 }
 
+.estilo-menu:hover {
+   background-color: rgba(144, 238, 144, 1)!important;
+   @apply rounded;
+}
+
+nav a.router-link-exact-active {
+  background-color: rgba(144, 238, 144, 1);
+  @apply rounded
+}
+
+nav a#logo.router-link-exact-active {
+  background-color: rgba(144, 238, 144, 0);
+}
 
 .bg-header {
-    background-color: rgba(
-    80,
-    67,
-    22,
-    0.5
-    );
+    background-color: rgba(135, 206, 250, 0.6)
+;
 }
 
 header {
@@ -3443,31 +3453,61 @@ header {
 }
 
 a.bg-header:hover, button.bg-header:hover {
-    background-color: rgba(
-    80,
-    67,
-    22,
-    1
-    );
+      background-color: rgba(144, 238, 144, 1)!important;
 }
 
 @media (min-width: 1024px) {
     a.bg-header {
-        background-color: rgba(
-        80,
-        67,
-        22,
-        0
-        );
+        background-color: rgba(144, 238, 144, 0);
     }
 
     a.bg-header:hover {
-        background-color: rgba(
-        80,
-        67,
-        22,
-        0
-        )!important;
+        background-color: rgba(144, 238, 144, 0)!important;
+    }
+}
+
+
+</style>
+
+<style scoped>
+.estilo-menu {
+    @apply block py-2 border-b border-gray-100  lg:border-0 lg:py-1 lg:px-4  z-50 transition duration-300
+}
+
+.estilo-menu:hover {
+   background-color: rgba(144, 238, 144, 1)!important;
+   @apply rounded;
+}
+
+nav a.router-link-exact-active {
+  background-color: rgba(144, 238, 144, 1);
+  @apply rounded
+}
+
+nav a#logo.router-link-exact-active {
+  background-color: rgba(144, 238, 144, 0);
+}
+
+.bg-header {
+    background-color: rgba(135, 206, 250, 0.6)
+;
+}
+
+header {
+    z-index:9999;
+}
+
+a.bg-header:hover, button.bg-header:hover {
+      background-color: rgba(144, 238, 144, 1)!important;
+}
+
+@media (min-width: 1024px) {
+    a.bg-header {
+        background-color: rgba(144, 238, 144, 0);
+    }
+
+    a.bg-header:hover {
+        background-color: rgba(144, 238, 144, 0)!important;
     }
 }
 

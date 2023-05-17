@@ -7,7 +7,7 @@ export default {
 <template>
   <section class="bg-white mt-20 md:mt-0 container mx-auto">
     <div>
-      <h2 class="text-2xl text-blue-nuvem sm:text-4xl lg:text-5xl" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);"><span >Mas o que é</span> <br> <span class="text-3xl  sm:text-5xl lg:text-7xl text-yellow-400" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);">Apraxia de Fala</span><span class="animate-pulse">?</span></h2>
+      <h2 class="text-2xl text-green-600 sm:text-4xl lg:text-5xl" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);"><span >Mas o que é</span> <br> <span class="text-3xl  sm:text-5xl lg:text-7xl text-blue-nuvem" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);">Apraxia de Fala</span><span class="animate-pulse">?</span></h2>
     </div>
     
     <div class="grid grid-cols-1  lg:grid-cols-3">
