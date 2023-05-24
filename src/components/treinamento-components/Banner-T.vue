@@ -11,7 +11,7 @@
         
       </h1>
 
-      <p class="mt-6 lg:text-2xl text-white p-4 border-2 rounded-2xl shadow-lg bg-blue-nuvem" style="text-shadow: 4px 2px 3px rgba(0,0,0,0.1)">da ApraxKids, que é um substituto gratuito para familias e crianças que não tem situação financeira adequada para contratar tratamentos mais avançados.</p>
+      <p class="mt-6 lg:text-3xl text-white p-4 border-2 border-black rounded bg-blue-nuvem" style="text-shadow: 4px 2px 3px rgba(0,0,0,0.1)">You can subscribe to our newsletter, and let you know when we are back</p>
 
     </div>
   </div>
@@ -22,11 +22,7 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
-.bg-image {
-    background-image: url('../../assets/img/fundo-nuvem.png');
-    background-position-y: -40vh;
-    background-repeat: no-repeat;
-}
+
 
 @media(max-height: 500px) {
     .bg-image {

@@ -5,11 +5,12 @@
   <section >
     <Banner/>
     <Sobre/>
-    <SobreTreinamento/>
+    <img src="../assets/img/retangulo.png" alt="" class="mx-auto mt-10">
+    <SobreTreinamento />
   </section>  
   </main>
   <Footer/>
-  </div> 
+  </div>
 </template>
 
 <script>

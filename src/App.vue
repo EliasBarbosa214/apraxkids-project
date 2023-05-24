@@ -64,4 +64,21 @@ h2, p {
 .bg-mao {
   background-image: url('./assets/img/fundo-treinamento.png');
 }
+
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 500ms ease-out;
+}
+
+.bg-image {
+    background-image: url('../src/assets/img/fundo-nuvem.png');
+    background-position-y: -40vh;
+    background-repeat: no-repeat;
+}
 </style>

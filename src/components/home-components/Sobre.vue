@@ -16,8 +16,12 @@ export default {
       </div>
       <div class="lg:col-span-2 centralizarImagem">
         <div class="p-10 text-justify">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium sit quas ut explicabo voluptatum possimus? In iure exercitationem eaque ut, ipsum a consequatur molestiae atque quasi alias ea provident. Culpa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aspernatur perferendis corporis tempora qui quo, neque similique autem dignissimos itaque nihil exercitationem possimus sapiente libero dolore aliquid blanditiis est consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit beatae officiis, et ipsum libero minus eos fugiat non exercitationem accusantium dolorum voluptatibus asperiores consectetur doloribus animi possimus ducimus delectus. Obcaecati.
+          <p class="text-xl">
+            A apraxia da fala é causada por uma lesão no córtex cerebral responsável pelo controle motor da fala. Os sintomas incluem dificuldade em planejar e coordenar os movimentos necessário,
+
+            <br>
+
+            A apraxia da fala é descrita como um comprometimento da capacidade de programar os movimentos dos articuladores para fins de fala. Pacientes com apraxia da fala podem apresentar uma ampla variedade de sinais clínicos, dependendo da gravidade de seu comprometimento da fala e do padrão de sintomas afásicos associados.
           </p>
         </div>
       </div>

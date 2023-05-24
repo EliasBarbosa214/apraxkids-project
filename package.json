@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "tw-elements": "^1.0.0-beta2",
     "vue": "^3.2.13",
+    "vue-core-video-player": "^0.2.0",
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
