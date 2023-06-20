@@ -120,10 +120,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -206,10 +206,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-b.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -292,10 +292,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-c.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -379,10 +379,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-d.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -467,10 +467,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -553,10 +553,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -639,10 +639,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -726,10 +726,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -814,10 +814,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -900,10 +900,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -986,10 +986,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1073,10 +1073,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1161,10 +1161,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1247,10 +1247,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1333,10 +1333,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1420,10 +1420,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1508,10 +1508,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1594,10 +1594,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1680,10 +1680,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1767,10 +1767,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1855,10 +1855,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -1941,10 +1941,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -2027,10 +2027,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>
@@ -2114,10 +2114,10 @@ export default {
                     loop
                     controls
                     poster="../../assets/img/Letras/letra-a.jpeg"
-                    style="width: 3000px"
+                    style="width: 3000px; height: 400px"
                   >
                     <source
-                      src="../../assets/mp4/ApraxKidsTreinamentos.mp4"
+                      src="../../assets/mp4/A.mp4"
                       type="video/mp4"
                     />
                   </video>

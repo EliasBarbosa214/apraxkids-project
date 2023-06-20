@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import TreinoView from '../views/TreinoView.vue'
 
 const routes = [
   {
@@ -20,7 +21,15 @@ const routes = [
     meta: {
       title: 'ApraxKids - Treinamento de Libras'
     }
-  }
+  },
+  {
+    path: '/treinamento-apraxia',
+    name: 'apraxia',
+    component: TreinoView,
+    meta: {
+      title: 'Apraxkids - Treinamento de Apraxia de Fala'
+    }
+  },
 ]
 
 const router = createRouter({

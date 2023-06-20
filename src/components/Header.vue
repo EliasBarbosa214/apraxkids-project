@@ -27,7 +27,7 @@
                             <router-link to="/treinamento-libras"  class="estilo-menu ">Treinamento de Libras</router-link>
                         </li>
                         <li>
-                            <a href="#treinamento-apraxia" class="estilo-menu ">Treinamento Apraxia de Fala</a>
+                            <router-link to="/treinamento-apraxia" class="estilo-menu ">Treinamento Apraxia de Fala</router-link>
                         </li>
                         <li>
                             <a href="#contato" class="estilo-menu">Contato</a>

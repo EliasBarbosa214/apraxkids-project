@@ -7,22 +7,45 @@ export default {
 <template>
   <section class="bg-white mt-20 md:mt-0 container mx-auto">
     <div>
-      <h2 class="text-2xl text-green-600 sm:text-4xl lg:text-5xl" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);"><span >Sobre a</span> <br> <img src="../../assets/img/logo-azul.png" alt="" class="mx-auto"></h2>
+      <h2
+        class="text-2xl text-green-600 sm:text-4xl lg:text-5xl"
+        style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4)"
+      >
+        <span>Sobre a</span> <br />
+        <img src="../../assets/img/logo-azul.png" alt="" class="mx-auto" />
+      </h2>
     </div>
-    
-    <div class="grid grid-cols-1  lg:grid-cols-3">
-      <div class="px-10 py-2 mx-auto lg:hidden">
-        <img src="../../assets/img/Apraxia.png" alt="">
+
+    <div class="">
+      <div class="px-10 py-2 mx-auto">
+        <img src="../../assets/img/Apraxia.png" alt=""  class="mx-auto h-96"/>
       </div>
       <div class="lg:col-span-2 centralizarImagem">
-        <div class="p-10 text-justify">
+        <div class="p-10 text-center">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium sit quas ut explicabo voluptatum possimus? In iure exercitationem eaque ut, ipsum a consequatur molestiae atque quasi alias ea provident. Culpa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aspernatur perferendis corporis tempora qui quo, neque similique autem dignissimos itaque nihil exercitationem possimus sapiente libero dolore aliquid blanditiis est consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit beatae officiis, et ipsum libero minus eos fugiat non exercitationem accusantium dolorum voluptatibus asperiores consectetur doloribus animi possimus ducimus delectus. Obcaecati.
+            A ApraxKids é uma empresa inovadora que se dedica a desenvolver
+            soluções tecnológicas avançadas para auxiliar no tratamento e no dia
+            a dia das pessoas que sofrem com a apraxia da fala. A ApraxKids
+            busca proporcionar uma abordagem abrangente e eficaz para superar as
+            dificuldades associadas a essa condição.
+            <br />
+            A apraxia da fala é um distúrbio neurológico que afeta a capacidade
+            de planejar e executar os movimentos necessários para falar
+            corretamente. Pessoas com apraxia da fala enfrentam desafios
+            significativos na comunicação verbal, o que pode impactar
+            negativamente suas vidas pessoais.
+            <br />
+            Além disso, a ApraxKids oferece vídeos de fonoaudiologia, conectando
+            os usuários com tecnicas especializadas no tratamento da apraxia da
+            fala. Nosso site utiliza uma abordagem global, adaptada às
+            necessidades do grande público em geral, para ajudá-los a
+            desenvolver habilidades de fala mais claras e precisas. Se você ou
+            alguém que você conhece está lidando com a apraxia da fala,
+            convidamos você a conhecer a ApraxKids e descobrir como nossas
+            soluções podem fazer a diferença. Juntos, podemos abrir novas
+            possibilidades e promover a inclusão para todos.
           </p>
         </div>
-      </div>
-      <div class="px-10 py-2 mx-auto  hidden lg:block">
-        <img src="../../assets/img/Apraxia.png" alt="">
       </div>
     </div>
   </section>

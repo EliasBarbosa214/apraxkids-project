@@ -28,6 +28,11 @@ export default {};
                 >Ser Feito<span class="animate-pulse">?</span>
               </span>
             </p>
+
+            <p class="text-lg mb-2 leading-none">
+              Libras é reconhecida como uma língua oficial no Brasil, e o aprendizado dessa língua é essencial para garantir a igualdade de oportunidades para todos.
+            </p>
+
             <p class="text-lg mb-2 leading-none">
               O treinamento de Libras será feito da seguinte forma, iniciará com
               passo a passos pequenos como alfabetos e palavras chaves como

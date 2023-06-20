@@ -9,7 +9,15 @@
       <h2 class="text-2xl text-blue-nuvem sm:text-4xl lg:text-5xl" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);"><span >Treinamento de</span> <br> <span class="text-3xl  sm:text-5xl lg:text-7xl text-green-600" style="text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);">Libras</span></h2>
     </div>
 
-      <p class="mt-6 lg:text-xl text-white p-4 border-2 border-black rounded bg-blue-nuvem" style="text-shadow: 4px 2px 3px rgba(0,0,0,0.1)">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae dolore, provident repellat sequi dicta blanditiis inventore enim officiis nihil doloremque fuga dolor aliquam id facilis, numquam sapiente, omnis assumenda voluptate!</p>
+      <p class="mt-6 lg:text-xl text-white p-4 border-2 border-black rounded bg-blue-nuvem" style="text-shadow: 4px 2px 3px rgba(0,0,0,0.1)">O objetivo principal do treinamento de Libras é permitir que mais pessoas se tornem proficientes nessa língua, ampliando assim a comunicação e o entendimento entre as pessoas com deficiência. Isso não apenas beneficia os indivíduos surdos, mas também cria uma sociedade mais inclusiva e acessível para todos.
+
+        <br> <br>
+Se você está interessado em participar do treinamento de Libras, convidamos você a se juntar a nós nesta jornada emocionante de aprendizado e inclusão. Esteja preparado para expandir seus horizontes, desafiar seus limites e se conectar com uma comunidade vibrante e diversa.
+</p>
+
+<br>
+
+<router-link to="/treinamento-libras" class="bg-green-600 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-green-800 transition duration-300">Veja mais...</router-link>
 
 
     <div class="pt-10 mx-auto">
